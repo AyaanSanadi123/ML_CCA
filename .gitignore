@@ -1,0 +1,37 @@
+# --- Python & ML Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Next.js / Node.js (inside price-ui) ---
+price-ui/.next/
+price-ui/node_modules/
+price-ui/out/
+price-ui/build/
+
+# --- OS / IDE Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Large EDA Plots / Temporary Exports ---
+eda_plots.png
+*.csv
+*.tsv
+
+
+# Ignore nested git repositories
+price-ui/.git
